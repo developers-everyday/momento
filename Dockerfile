@@ -1,5 +1,5 @@
 # Use a base image with full Debian/Linux to easily install ffmpeg
-FROM node:18-bullseye
+FROM node:20-bullseye
 
 # Install FFmpeg
 RUN apt-get update && \
